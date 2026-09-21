@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="author" content="" width=device-width, initial-scale="1.0">
-    <meta name="description" content="Site sobre 'A Pesquisa' do Nick" , desenvolvedor web.">
+    <title>Design Responsivo - Mobile First</title>
+    <meta name="author" content="Nicollas">
+    <meta name="description" content="Site sobre 'A Pesquisa' do Nick, desenvolvedor web.">
     <meta name="keywords" content="Desenvolvedor, Web, HTML,
     CSS, JavaScript, Pesquisa">
 
-    <title></title>
-
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
 
@@ -23,6 +23,10 @@
         <section class="home bd-grid" id="home">
             <div>
                 <h1 class="home-title">Design Responsivo - Mobile First</h1>
+
+                <img src="img/design-responsivo.webp"
+                     alt="Ilustração representando um site se adaptando a diferentes tamanhos de tela"
+                     width="600">
             </div>
         </section>
 
@@ -42,7 +46,7 @@
 
         <section class="development section" id="development">
             <div>
-                <h2>2. Desing Responsivo, Fluído E "Mobile-Firts" (Celular Primeiro)</h2>
+                <h2>2. Design Responsivo, Fluido e "Mobile-First" (Celular Primeiro)</h2>
             </div>
             <div>
                 <h3>2.1 O que é cada tipo de Layout?</h3>
@@ -54,18 +58,16 @@
                     <li>
                         <strong>Layout Fixo:</strong> É um formato antigo onde as caixas do site têm tamanhos rígidos
                         em pixels. Se a tela for menor do que o tamanho definido, o site não se adapta e surgem barras
-                        de rolagem desconfortáveis, obrigando o usuário a dar zoom com os dedos para conseguir ler.<br>
+                        de rolagem desconfortáveis, obrigando o usuário a dar zoom com os dedos para conseguir ler.
                     </li>
-                    <br>
                     <li>
                         <strong>Layout Fluido:</strong> Utiliza medidas relativas e percentuais (como % em vez de
                         pixels). As colunas diminuem e aumentam de forma proporcional ao tamanho da janela. Porém, em
                         telas muito pequenas como as de celulares, os elementos podem ficar espremidos e difíceis de
                         ler.
                     </li>
-                    <br>
                     <li>
-                        <strong>Design Responsivo: </strong>É a evolução ideal. O site responde e se adapta ao tamanho
+                        <strong>Design Responsivo:</strong> É a evolução ideal. O site responde e se adapta ao tamanho
                         da tela (janela de visualização ou "viewport"). Ele muda a sua estrutura de forma inteligente:
                         por exemplo, colocando fotos uma abaixo da outra em celulares para facilitar a leitura, e lado a
                         lado em telas de computadores.
@@ -80,13 +82,11 @@
                         primeiro nas telas pequenas dos celulares para depois adaptá-lo para computadores. Isso
                         economiza recursos, simplifica o código e foca no que é realmente essencial para o usuário.
                     </li>
-                    <br>
                     <li>
                         <strong>Uso de Media Queries: </strong>Recursos de código CSS que funcionam como condições.
                         Elas dizem ao navegador: "Se a tela tiver pelo menos 600 pixels de largura, aplique este visual
                         diferente".
                     </li>
-                    <br>
                     <li>
                         <strong>A Tag Meta Viewport: </strong>É uma linha de código crucial que avisa ao celular que o
                         site foi planejado para ser responsivo. Sem ela, o aparelho celular finge que é uma tela de
@@ -117,22 +117,19 @@
                         Recomenda-se usar as fontes que já vêm embutidas no sistema do celular em vez de carregar fontes
                         externas da internet.
                     </li>
-                    <br>
                     <li>
                         <strong>Menus de Navegação Simples: </strong>Menus horizontais embutidos são as opções mais
                         rápidas para computadores e tablets, enquanto menus verticais mostram melhor desempenho em
                         celulares.
                     </li>
-                    <br>
                     <li>
                         <strong>Botões Otimizados: </strong>Botões padrão e links textuais limpos carregam muito
                         rápido em todos os aparelhos. Efeitos visuais pesados (como sombras complexas ou botões
                         transparentes) podem atrasar o carregamento em celulares devido ao esforço extra de
                         processamento gráfico.
                     </li>
-                    <br>
                     <li>
-                        <strong>Formato de Imagens Moderno:</strong> Prefira formatos como WebP ou HEIC em vez de PNG
+                        <strong>Formato de Imagens Moderno: </strong>Prefira formatos como WebP ou HEIC em vez de PNG
                         e JPEG antigos. Eles oferecem alta qualidade com arquivos muito menores, acelerando o download
                         do site.
                     </li>
@@ -151,6 +148,9 @@
                     incluindo pessoas com deficiências visuais ou motoras. Aplicativos de leitura de tela (como o
                     TalkBack em celulares Android) ajudam esses usuários transformando o conteúdo do site em voz.
                 </p>
+                <img src="img/acessibilidade-web.webp"
+                     alt="Ilustração sobre acessibilidade e inclusão na web"
+                     width="600">
             </div>
             <div>
                 <h3>4.2 O Modelo FIF (Foco, Informação e Funcionalidade)</h3>
@@ -160,20 +160,18 @@
                 </p>
                 <ul>
                     <li>
-                        <strong> Focusability (Foco / Capacidade de Alcance):</strong> Garante que o leitor de tela
+                        <strong>Focusability (Foco / Capacidade de Alcance):</strong> Garante que o leitor de tela
                         consiga "enxergar" e selecionar cada elemento interativo do site. Evita problemas comuns como:
                         Elementos Não Acessíveis (botões importantes ignorados); Elementos Excessivamente Acessíveis
                         (itens repetidos poluem a navegação); e Granularidade Incorreta (quando o site divide uma frase
                         em vários pedacinhos confusos ou junta um menu inteiro em um bloco só).
                     </li>
-                    <br>
                     <li>
-                        <strong> Information (Informação / Compreensão):</strong> Garante que os elementos tenham
+                        <strong>Information (Informação / Compreensão):</strong> Garante que os elementos tenham
                         legendas claras descritas em texto e que a ordem de leitura do site faça sentido lógico.
                     </li>
-                    <br>
                     <li>
-                        <strong> Functionality (Funcionalidade / Ação):</strong> Garante que todas as funções do site
+                        <strong>Functionality (Funcionalidade / Ação):</strong> Garante que todas as funções do site
                         funcionem perfeitamente por comandos de voz ou teclado, oferecendo alternativas acessíveis (como
                         uma opção de áudio para decifrar testes de segurança difíceis de ver).
                     </li>
@@ -197,20 +195,18 @@
                 <h3>5.2 Como os PWAs funcionam?</h3>
                 <ul>
                     <li>
-                        <strong> Service Workers (Operários de Serviço):</strong> São pequenos programas executados em
+                        <strong>Service Workers (Operários de Serviço):</strong> São pequenos programas executados em
                         segundo plano no navegador. Eles funcionam como intermediários, salvando as informações na
                         memória do aparelho (cache) para que o site possa abrir e funcionar mesmo se o usuário estiver
                         completamente sem internet (modo offline).
                     </li>
-                    <br>
                     <li>
-                        <strong> Manifesto Web (manifest.json):</strong> Um arquivo de texto simples que guarda
+                        <strong>Manifesto Web (manifest.json):</strong> Um arquivo de texto simples que guarda
                         informações básicas do aplicativo, como o nome, as cores do tema e os ícones que aparecerão na
                         tela inicial do celular.
                     </li>
-                    <br>
                     <li>
-                        <strong> Origem Segura (HTTPS):</strong> Para garantir a segurança dos dados e a privacidade do
+                        <strong>Origem Segura (HTTPS):</strong> Para garantir a segurança dos dados e a privacidade do
                         usuário, todos os PWAs devem rodar obrigatoriamente sob conexões seguras e criptografadas.
                     </li>
                 </ul>
@@ -237,19 +233,17 @@
                 </p>
                 <ul>
                     <li>
-                        <strong> Consistência de Cores e Iluminação: </strong>Estudos apontam que a iluminação ambiente
+                        <strong>Consistência de Cores e Iluminação: </strong>Estudos apontam que a iluminação ambiente
                         (como lâmpadas LED quentes de 3000K) e a claridade de fundos neutros afetam significativamente a
                         percepção de cores e o conforto visual em exibições de telas digitais.
                     </li>
-                    <br>
                     <li>
-                        <strong> Prova Digital SCCA: </strong>Estudos apontam que a iluminação ambiente (como lâmpadas
+                        <strong>Prova Digital SCCA: </strong>Estudos apontam que a iluminação ambiente (como lâmpadas
                         LED quentes de 3000K) e a claridade de fundos neutros afetam significativamente a percepção de
                         cores e o conforto visual em exibições de telas digitais.
                     </li>
-                    <br>
                     <li>
-                        <strong> Embalagens Inteligentes e Sustentáveis: </strong>A tecnologia gráfica e o design físico
+                        <strong>Embalagens Inteligentes e Sustentáveis: </strong>A tecnologia gráfica e o design físico
                         hoje caminham juntos. O uso de Realidade Aumentada (AR) em códigos QR de embalagens permite
                         visualizar produtos em 3D sem abrir a caixa. Além disso, novas pesquisas desenvolvem tintas
                         fluorescentes ecológicas, circuitos eletrônicos flexíveis impressos com nanosilver e plásticos
@@ -275,9 +269,7 @@
 
         <footer>
             <div>
-                <p>
-                    <h2><i>Referências:</i></h2>
-                </p>
+                <h2><i>Referências:</i></h2>
                 <p>
                     ALDALUR, I. et al. A visual programming tool for mobile web augmentation. eBiltegia MONDRAGON
                     UNIBERTSITATEA. Knowledge and Information Systems, Springer, 2024.
