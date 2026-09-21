@@ -1,0 +1,308 @@
+/* ==============================
+   CONFIGURAÇÕES GERAIS
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f6f2;
+    color: #505765;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+/* ==============================
+   CABEÇALHO
+================================= */
+
+.header-1 {
+    width: 100%;
+    height: 12px;
+    background-color: #b8cbc7;
+}
+
+
+/* ==============================
+   ÁREA PRINCIPAL / HERO
+================================= */
+
+.home {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: 50px 20px;
+
+    background: linear-gradient(
+        135deg,
+        #eef3f1,
+        #f3edf6
+    );
+}
+
+.home > div {
+    width: 100%;
+    max-width: 900px;
+}
+
+.home-title {
+    color: #59636f;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+
+/* ==============================
+   IMAGENS
+================================= */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.home img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+    border-radius: 18px;
+}
+
+
+/* Imagem de acessibilidade */
+
+.introduction + .development img,
+section img {
+    margin-top: 25px;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 18px;
+}
+
+
+/* ==============================
+   SEÇÕES
+================================= */
+
+main > section {
+    width: 92%;
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 30px 22px;
+
+    background-color: #fffdfa;
+
+    border-radius: 18px;
+
+    box-shadow: 0 5px 18px rgba(80, 87, 101, 0.08);
+}
+
+
+/* ==============================
+   TÍTULOS
+================================= */
+
+h1,
+h2,
+h3 {
+    color: #59636f;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 22px;
+
+    border-left: 5px solid #b8cbc7;
+    padding-left: 12px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+
+/* ==============================
+   PARÁGRAFOS
+================================= */
+
+p {
+    margin-bottom: 18px;
+}
+
+strong {
+    color: #677f79;
+}
+
+
+/* ==============================
+   LISTAS
+================================= */
+
+ul {
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+li {
+    margin-bottom: 14px;
+    padding-left: 5px;
+}
+
+li::marker {
+    color: #9db8b2;
+}
+
+
+/* ==============================
+   SEÇÃO DE INTRODUÇÃO
+================================= */
+
+#introduction {
+    border-top: 5px solid #d7c8e3;
+}
+
+
+/* ==============================
+   SEÇÃO DE DESIGN RESPONSIVO
+================================= */
+
+#development {
+    border-top: 5px solid #b8cbc7;
+}
+
+
+/* ==============================
+   SEÇÃO DE ACESSIBILIDADE
+================================= */
+
+section:nth-of-type(4) {
+    border-top: 5px solid #f0c9c1;
+}
+
+section:nth-of-type(4) img {
+    box-shadow: 0 8px 20px rgba(80, 87, 101, 0.12);
+}
+
+
+/* ==============================
+   DESTAQUE DAS SEÇÕES
+================================= */
+
+section:nth-of-type(3) {
+    border-top: 5px solid #e3d2b9;
+}
+
+section:nth-of-type(5) {
+    border-top: 5px solid #c7cbe4;
+}
+
+section:nth-of-type(6) {
+    border-top: 5px solid #d9c7d9;
+}
+
+section:nth-of-type(7) {
+    border-top: 5px solid #b8cbc7;
+}
+
+
+/* ==============================
+   REFERÊNCIAS / RODAPÉ
+================================= */
+
+footer {
+    width: 92%;
+    max-width: 1000px;
+    margin: 50px auto 30px;
+    padding: 30px 22px;
+
+    background-color: #eef3f1;
+
+    border-radius: 18px;
+}
+
+footer h2 {
+    border-left-color: #9db8b2;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #69717c;
+    margin-bottom: 15px;
+}
+
+
+/* ==============================
+   TABLETS E COMPUTADORES
+================================= */
+
+@media (min-width: 768px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    .home {
+        min-height: 75vh;
+        padding: 70px 30px;
+    }
+
+    .home-title {
+        font-size: 3rem;
+    }
+
+    main > section {
+        padding: 40px 45px;
+        margin: 45px auto;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    h3 {
+        font-size: 1.35rem;
+    }
+
+    footer {
+        padding: 40px 45px;
+    }
+}
+
+
+/* ==============================
+   TELAS GRANDES
+================================= */
+
+@media (min-width: 1100px) {
+
+    .home-title {
+        font-size: 3.5rem;
+    }
+
+    main > section {
+        padding: 45px 60px;
+    }
+}
