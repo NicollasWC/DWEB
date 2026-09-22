@@ -1,6 +1,4 @@
-/* ==============================
-   CONFIGURAÇÕES GERAIS
-================================= */
+/*CONFIGURAÇÕES GERAIS*/
 
 * {
     margin: 0;
@@ -21,9 +19,7 @@ body {
 }
 
 
-/* ==============================
-   CABEÇALHO
-================================= */
+/*CABEÇALHO*/
 
 .header-1 {
     width: 100%;
@@ -32,9 +28,7 @@ body {
 }
 
 
-/* ==============================
-   ÁREA PRINCIPAL / HERO
-================================= */
+/*ÁREA PRINCIPAL / HERO*/
 
 .home {
     min-height: 70vh;
@@ -65,9 +59,7 @@ body {
 }
 
 
-/* ==============================
-   IMAGENS
-================================= */
+/*IMAGENS*/
 
 img {
     display: block;
@@ -84,7 +76,7 @@ img {
 }
 
 
-/* Imagem de acessibilidade */
+/*Imagem de acessibilidade*/
 
 .introduction + .development img,
 section img {
@@ -101,9 +93,7 @@ section img {
 }
 
 
-/* ==============================
-   SEÇÕES
-================================= */
+/*SEÇÕES*/
 
 main > section {
     width: 92%;
@@ -119,9 +109,7 @@ main > section {
 }
 
 
-/* ==============================
-   TÍTULOS
-================================= */
+/*TÍTULOS*/
 
 h1,
 h2,
@@ -144,9 +132,7 @@ h3 {
 }
 
 
-/* ==============================
-   PARÁGRAFOS
-================================= */
+/*PARÁGRAFOS*/
 
 p {
     margin-bottom: 18px;
@@ -157,9 +143,7 @@ strong {
 }
 
 
-/* ==============================
-   LISTAS
-================================= */
+/*LISTAS*/
 
 ul {
     padding-left: 25px;
@@ -176,27 +160,21 @@ li::marker {
 }
 
 
-/* ==============================
-   SEÇÃO DE INTRODUÇÃO
-================================= */
+/*SEÇÃO DE INTRODUÇÃO*/
 
 #introduction {
     border-top: 5px solid #d7c8e3;
 }
 
 
-/* ==============================
-   SEÇÃO DE DESIGN RESPONSIVO
-================================= */
+/*SEÇÃO DE DESIGN RESPONSIVO*/
 
 #development {
     border-top: 5px solid #b8cbc7;
 }
 
 
-/* ==============================
-   SEÇÃO DE ACESSIBILIDADE
-================================= */
+/*SEÇÃO DE ACESSIBILIDADE*/
 
 section:nth-of-type(4) {
     border-top: 5px solid #f0c9c1;
@@ -207,9 +185,7 @@ section:nth-of-type(4) img {
 }
 
 
-/* ==============================
-   DESTAQUE DAS SEÇÕES
-================================= */
+/*DESTAQUE DAS SEÇÕES*/
 
 section:nth-of-type(3) {
     border-top: 5px solid #e3d2b9;
@@ -228,9 +204,7 @@ section:nth-of-type(7) {
 }
 
 
-/* ==============================
-   REFERÊNCIAS / RODAPÉ
-================================= */
+/*REFERÊNCIAS / RODAPÉ*/
 
 footer {
     width: 92%;
@@ -254,9 +228,7 @@ footer p {
 }
 
 
-/* ==============================
-   TABLETS E COMPUTADORES
-================================= */
+/*TABLETS E COMPUTADORES*/
 
 @media (min-width: 768px) {
 
@@ -292,9 +264,7 @@ footer p {
 }
 
 
-/* ==============================
-   TELAS GRANDES
-================================= */
+/*TELAS GRANDES*/
 
 @media (min-width: 1100px) {
 
