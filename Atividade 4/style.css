@@ -1,0 +1,52 @@
+@font-face {
+    font-family: RustyAttack;
+    src: url("fontes/RustyAttackDemo-d9X8l.otf");
+}
+@font-face {
+    font-family: HelpMe;
+    src: url("fontes/HelpMe-Yz7Lq.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+    background-color: #fafaef;
+}
+
+header {
+    color: rgb(12, 15, 177);
+    padding: 10px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: large;
+}
+
+nav{
+    margin: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+a{
+    font-family: RustyAttack;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 3s;
+}
+
+a:hover{
+    color: #EA0C0C;
+    font-size: 25px;
+    font-family: HelpMe;
+}
+
+.container-box{
+    display: flex;
+}
