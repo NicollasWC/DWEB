@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-color: #320a0a;
+}
+
+
+.bottom img{
+    width: 16%;
+    height: 100px;
+    object-fit: contain;
+    background-color: #000000;
+    display: flexbox;
+}
+
+button{
+    width: 100px;
+    height: 75px;
+    border-radius: 15px;
+    gap: 25%;
+}
