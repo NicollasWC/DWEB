@@ -9,8 +9,12 @@ body {
     background-color: #320a0a;
 }
 
+.ref{
+    display: flexbox ;
 
-.bottom img{
+}
+
+.ref img{
     width: 16%;
     height: 100px;
     object-fit: contain;
@@ -23,4 +27,11 @@ button{
     height: 75px;
     border-radius: 15px;
     gap: 25%;
+    color: white;
+}
+
+.botoes img{
+    width: 90px;
+    height: 70px;
+    border-radius: 15px;
 }
